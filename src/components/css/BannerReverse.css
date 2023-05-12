@@ -1,0 +1,39 @@
+.bannerReverse {
+  display: flex;
+  height: 25rem;
+}
+.text-side {
+  flex: 1;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 60%;
+}
+
+.text button {
+  font-weight: 600;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 13px;
+  font-size: 1rem;
+  transition: all 0.15s ease-in;
+  cursor: pointer;
+}
+
+.text button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+.bannerReverse .img-side {
+  flex: 1;
+}
+.bannerReverse .img-side img {
+  width: 100%;
+  height: 100%;
+}

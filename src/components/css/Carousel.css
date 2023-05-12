@@ -1,0 +1,75 @@
+.title-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 5vh 0;
+}
+
+.carousel-container {
+  position: relative;
+  justify-content: space-between;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel a {
+  margin-right: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.205);
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  height: 100%;
+  transition: all 0.15s ease-in;
+}
+.carousel a:hover {
+  border: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.image {
+  height: 13rem;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  width: 13rem;
+}
+
+.carousel .name {
+  color: grey;
+  display: block;
+}
+
+.price {
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.btn:hover {
+  background-color: black;
+}
+
+.arrow-left,
+.arrow-right {
+  background-color: #373737;
+  color: white;
+  height: 2.4rem;
+  width: 2.4rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+  font-size: 0.9rem;
+}

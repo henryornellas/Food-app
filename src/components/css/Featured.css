@@ -1,0 +1,81 @@
+.child-featured {
+  width: 100%;
+  height: 31rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "fst fst snd trd"
+    "fst fst snd fth";
+  gap: 15px;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in;
+}
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.featured img {
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  width: 100%;
+}
+
+.first {
+  grid-area: fst;
+}
+.second {
+  grid-area: snd;
+}
+.third {
+  grid-area: trd;
+}
+.fourth {
+  grid-area: fth;
+}
+
+.featured-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured-card p {
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  margin: 0;
+}
+
+@media (max-width: 1050px) {
+  .child-featured {
+    max-height: 650px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas:
+      "fst snd"
+      "trd fth";
+    grid-gap: 13px;
+    gap: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .featured-card p {
+    bottom: 1rem;
+    left: 1rem;
+    font-size: 1.5rem;
+  }
+}

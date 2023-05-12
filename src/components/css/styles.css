@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Chedros";
+  src: url("/src/fonts/chedros.ttf");
+}
+
+section {
+  margin: 0 auto 10vh;
+  max-width: 60vw;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 5rem 0 0 0;
+  width: 100%;
+  margin: 0;
+  font-family: Chedros;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1300px) {
+  section {
+    max-width: 80vw;
+  }
+}
+@media (max-width: 600px) {
+  section {
+    max-width: 96vw;
+  }
+}
