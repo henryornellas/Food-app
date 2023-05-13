@@ -27,6 +27,7 @@ function App() {
       }else{
         setCartItem([item]);
       }
+      return;
     });
   };
 
