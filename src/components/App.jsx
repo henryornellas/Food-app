@@ -21,13 +21,12 @@ function App() {
 
     setCartItem([item]);
 
-    cartItem.map((foundItem) => {
+    cartItem.forEach((foundItem) => {
       if(foundItem[0].id === item[0].id){
         setCartItem([...cartItem])
       }else{
         setCartItem([item]);
       }
-      return;
     });
   };
 
