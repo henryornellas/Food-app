@@ -1,8 +1,16 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function CategoriesHeader() {
-  const [btnName, setBtnName] = useState("todos");
+  const location = useLocation();
+
+  function getHeaderName() {
+    if(location.state.headerName){
+      return location.state.headerName;
+    }
+  }
+
+  const [btnName, setBtnName] = useState(getHeaderName);
   const handleBtnName = (e) => {
     setBtnName(e);
   };
