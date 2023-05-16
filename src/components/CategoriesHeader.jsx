@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 function CategoriesHeader() {
-  const location = useLocation();
 
+  //Checks for passed header name from homepage
+  const location = useLocation();
   function getHeaderName() {
-    if(location.state.headerName){
+    if(location.state){
       return location.state.headerName;
+    }else{
+      return 'todos';
     }
   }
 

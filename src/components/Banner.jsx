@@ -13,7 +13,7 @@ function Banner() {
             para você!
           </p>
 
-          <Link onClick={() => window.scrollTo(0, 0)} to="categoria/todos">
+          <Link onClick={() => window.scrollTo(0, 0)} to="/categoria/todos">
             <button>PEÇA AGORA</button>
           </Link>
         </div>
