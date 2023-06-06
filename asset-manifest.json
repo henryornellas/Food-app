@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ziba-delivery/static/css/main.3997eb1d.css",
-    "main.js": "/ziba-delivery/static/js/main.08c0e2f6.js",
+    "main.js": "/ziba-delivery/static/js/main.0cc94b76.js",
     "static/media/musksaro.png": "/ziba-delivery/static/media/musksaro.f30861906adcf69df99b.png",
     "static/media/bum.png": "/ziba-delivery/static/media/bum.bb5ed27c9fbe33403376.png",
     "static/media/13.png": "/ziba-delivery/static/media/13.a3f2edeee5a307db4597.png",
@@ -27,10 +27,10 @@
     "static/media/bottle.webp": "/ziba-delivery/static/media/bottle.adba97fd85a939bed998.webp",
     "index.html": "/ziba-delivery/index.html",
     "main.3997eb1d.css.map": "/ziba-delivery/static/css/main.3997eb1d.css.map",
-    "main.08c0e2f6.js.map": "/ziba-delivery/static/js/main.08c0e2f6.js.map"
+    "main.0cc94b76.js.map": "/ziba-delivery/static/js/main.0cc94b76.js.map"
   },
   "entrypoints": [
     "static/css/main.3997eb1d.css",
-    "static/js/main.08c0e2f6.js"
+    "static/js/main.0cc94b76.js"
   ]
 }
